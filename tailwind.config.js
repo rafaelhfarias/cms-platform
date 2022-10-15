@@ -1,37 +1,42 @@
 module.exports = {
-  content: [],
+    content: [
+        './src/assets/**/*.{vue,js,css}',
+        './src/components/**/*.{vue,js}',
+        './src/layouts/**/*.vue',
+        './src/pages/**/*.vue',
+        './nuxt.config.{js,ts}'],
 
-  darkMode: 'class',
+    darkMode: 'class',
 
-  theme: {
+    theme: {
 
-      screens: {
-          xs: "614px",
-          sm: "1002px",
-          md: "1022px",
-          lg: "1092px",
-          xl: "1280px",
-      },
+        screens: {
+            xs: "614px",
+            sm: "1002px",
+            md: "1022px",
+            lg: "1092px",
+            xl: "1280px",
+        },
 
-      extend: {
+        extend: {
 
-          colors: {
-              dim: {
-                  50: "#5F99F7",
-                  100: "#5F99F7",
-                  200: "#38444d",
-                  300: "#202e3a",
-                  400: "#253341",
-                  500: "#5F99F7",
-                  600: "#5F99F7",
-                  700: "#192734",
-                  800: "#162d40",
-                  900: "#15202b",
-              },
-          },
+            colors: {
+                dim: {
+                    50: "#5F99F7",
+                    100: "#5F99F7",
+                    200: "#38444d",
+                    300: "#202e3a",
+                    400: "#253341",
+                    500: "#5F99F7",
+                    600: "#5F99F7",
+                    700: "#192734",
+                    800: "#162d40",
+                    900: "#15202b",
+                },
+            },
 
-      },
-  },
+        },
+    },
 
-  plugins: [],
+    plugins: [],
 }
