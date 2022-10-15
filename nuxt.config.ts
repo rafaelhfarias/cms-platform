@@ -2,4 +2,7 @@
 export default defineNuxtConfig({
     srcDir: 'src/',
     modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+    meta: {
+        title: "Escolinha do TFT"
+    }
 })

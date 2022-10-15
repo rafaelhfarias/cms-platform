@@ -2,7 +2,11 @@
 </script>
 
 <template>
-    <div class="h-screen">
-        <slot/>
+    <div>
+        <Navbar />
+        
+        <div class="h-screen">
+            <slot />
+        </div>
     </div>
 </template>
